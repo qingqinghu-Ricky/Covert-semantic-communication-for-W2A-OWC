@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this code or the UAM dataset."
+title: "Covertness-Oriented Water-to-Air Optical Wireless Semantic Communications"
+type: software
+authors:
+  - family-names: Hu
+    given-names: Qingqing
+  - family-names: Chen
+    given-names: Bin
+  - family-names: Lei
+    given-names: Yi
+  - family-names: Gong
+    given-names: Chen
+repository-code: "https://github.com/qingqinghu-Ricky/Covert-semantic-communication-for-W2A-OWC"
+preferred-citation:
+  type: article
+  title: "Covertness-Oriented Water-to-Air Optical Wireless Semantic Communications"
+  authors:
+    - family-names: Hu
+      given-names: Qingqing
+    - family-names: Chen
+      given-names: Bin
+    - family-names: Lei
+      given-names: Yi
+    - family-names: Gong
+      given-names: Chen
+  journal: "IEEE Transactions on Green Communications and Networking"
+  year: 2026
+  doi: "10.1109/TGCN.2026.3734354"
+  volume: 10
+  start: 4380
+  end: 4391

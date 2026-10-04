@@ -1,0 +1,67 @@
+[
+  {
+    "file": "sparse_ema.pth",
+    "source_state": "net_ema",
+    "epoch": 200,
+    "sha256": "f39a050745541a48c5bb89cfcdd20ffb9f839685e4861e728bf314bc8aab6c2f",
+    "bytes": 343810345,
+    "tensor_count": 1040,
+    "source_recipe": {
+      "show_flag": false,
+      "batch_size": 10,
+      "beta": 0,
+      "cuda": true,
+      "epoch": 200,
+      "img_h": 224,
+      "img_w": 224,
+      "lambda1": 0.001,
+      "latent_dim": 2048,
+      "lr": 0.0001,
+      "num_classes": 3,
+      "seed": 1
+    }
+  },
+  {
+    "file": "dense_ema.pth",
+    "source_state": "net_ema",
+    "epoch": 200,
+    "sha256": "c873cabb94d312fe805bbc43d7b73cbfa2cd4f963bf89060bbf8983c53113b8a",
+    "bytes": 343809739,
+    "tensor_count": 1040,
+    "source_recipe": {
+      "show_flag": false,
+      "batch_size": 10,
+      "beta": 0,
+      "cuda": true,
+      "epoch": 200,
+      "img_h": 224,
+      "img_w": 224,
+      "lambda1": 0,
+      "latent_dim": 2048,
+      "lr": 0.0001,
+      "num_classes": 3,
+      "seed": 1
+    }
+  },
+  {
+    "file": "segmenter_init.pth",
+    "source_state": "net (segmentNet only)",
+    "sha256": "bc2af69d328a73cda05cf8c92535e4787315af9f17f6156ba89f9bf63cf64e80",
+    "bytes": 118370030,
+    "tensor_count": 703
+  },
+  {
+    "file": "segmenter_init_ema.pth",
+    "source_state": "net_ema (segmentNet only)",
+    "sha256": "a1eb689664dcaebde41125bab434993e70285a58470f94ef3ea1f0e462be1398",
+    "bytes": 118371658,
+    "tensor_count": 703
+  },
+  {
+    "file": "resnet18_imagenet.pth",
+    "source": "torchvision ResNet18_Weights.IMAGENET1K_V1",
+    "official_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "bytes": 46830571
+  }
+]

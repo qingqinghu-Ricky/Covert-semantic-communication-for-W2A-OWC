@@ -1,0 +1,128 @@
+{
+  "seed": 1,
+  "device": "cuda",
+  "amp": true,
+  "batch_size": 10,
+  "legacy_drop_last": false,
+  "smoke_run": false,
+  "skip_kl": false,
+  "noise_power_dbm": [
+    -25,
+    -22.5,
+    -20,
+    -17.5,
+    -15,
+    -12.5,
+    -10
+  ],
+  "channel_eps": 1e-12,
+  "elapsed_seconds": 237.42436814308167,
+  "torch_version": "2.9.0+cu128",
+  "diagnostics": [
+    {
+      "noise_power_dbm": -25,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -25,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -25,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -22.5,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -22.5,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -22.5,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -20,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -20,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -20,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -17.5,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -17.5,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -17.5,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -15,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -15,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -15,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -12.5,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -12.5,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -12.5,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -10,
+      "scheme": "sparse",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -10,
+      "scheme": "dense",
+      "integration_warnings": 0
+    },
+    {
+      "noise_power_dbm": -10,
+      "scheme": "energy_matched",
+      "integration_warnings": 0
+    }
+  ]
+}

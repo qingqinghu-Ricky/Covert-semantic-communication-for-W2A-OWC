@@ -1,0 +1,15 @@
+# Downloadable assets and generated experiment outputs
+/data/UAM/train/
+/data/UAM/test/
+/checkpoints/*.pth
+/training/
+/results/
+/checks/
+*.tar.gz
+*.zip
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.DS_Store
